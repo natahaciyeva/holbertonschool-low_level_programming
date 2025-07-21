@@ -1,3 +1,6 @@
+gcc -Wall -Werror -Wextra -pedantic 4-puts.c -o hello
+./hello
+
 #include <stdio.h>
 
 /**
