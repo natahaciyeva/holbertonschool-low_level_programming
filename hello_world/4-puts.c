@@ -1,6 +1,3 @@
-gcc -Wall -Werror -Wextra -pedantic 4-puts.c -o hello
-./hello
-
 #include <stdio.h>
 
 /**
@@ -10,6 +7,6 @@ gcc -Wall -Werror -Wextra -pedantic 4-puts.c -o hello
  */
 int main(void)
 {
-    puts("Programming is like building a multilingual puzzle");
+    puts("\"Programming is like building a multilingual puzzle");
     return (0);
 }
